@@ -1,6 +1,6 @@
 
 FROM rabbitmq:management-alpine
 
-RUN rabbitmq-plugins enable --offline rabbitmq_web_stomp
+RUN rabbitmq-plugins enable --offline rabbitmq_web_mqtt
 
-EXPOSE 15674
+EXPOSE 15675
